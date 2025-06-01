@@ -48,7 +48,7 @@ body {
     align-items: center;
     font-size: 100px;
     animation: heartbeat 1s ease infinite;
-    text-shadow: #fc0 0 0 50px;
+    text-shadow: red 0 0 50px;
 }
 
 @keyframes heartbeat {
