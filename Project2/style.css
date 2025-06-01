@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-color: #111111;
+}
+
+.container {
+    display:flex;
+    height:100vh;
+    /* background-color: red; */
+    overflow: hidden;
+}
+
+/* .container div {
+    display: flex;
+    width: auto;
+} */
+
+.container > div {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+
+.him, .her {
+    /* background-color: green; */
+    /* width: 33%; */
+    font-family: "Dancing Script";
+    color: aliceblue;
+    /* text-shadow: #fc0 0 0 50px; */
+}
+
+.heart {
+    /* background-color: gold; */
+    /* width: 34%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    animation: heartbeat 1s ease infinite;
+    text-shadow: #fc0 0 0 50px;
+}
+
+@keyframes heartbeat {
+    75% {
+        transform:scale(1.2) ;
+        
+        /* box-shadow: 0 0 10px 10px red; */
+    }
+}
